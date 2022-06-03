@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="5279" started-at="2022-06-03T03:14:25Z" finished-at="2022-06-03T03:14:30Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="5279" started-at="2022-06-03T03:14:25Z" finished-at="2022-06-03T03:14:30Z">
+      <class name="org.example.TestDeleteTicket_Ruchira">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="startTest" is-config="true" duration-ms="8" started-at="2022-06-03T08:44:25Z" finished-at="2022-06-03T08:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setResponseSpecification()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="setResponseSpecification" is-config="true" duration-ms="890" started-at="2022-06-03T08:44:25Z" finished-at="2022-06-03T08:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResponseSpecification -->
+        <test-method status="PASS" signature="postBookTicket()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="postBookTicket" duration-ms="4043" started-at="2022-06-03T08:44:26Z" finished-at="2022-06-03T08:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postBookTicket -->
+        <test-method status="PASS" signature="postDeleteTicket()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="postDeleteTicket" duration-ms="61" started-at="2022-06-03T08:44:30Z" finished-at="2022-06-03T08:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postDeleteTicket -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="flushReport" is-config="true" duration-ms="267" started-at="2022-06-03T08:44:30Z" finished-at="2022-06-03T08:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- org.example.TestDeleteTicket_Ruchira -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
