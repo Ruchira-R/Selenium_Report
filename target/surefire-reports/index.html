@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.TestDeleteTicket_Ruchira" hash-for-method="getMyTicket">getMyTicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.example.TestDeleteTicket_Ruchira" hash-for-method="postBookTicket">postBookTicket</a> <!-- method navigator-link -->
@@ -127,6 +132,13 @@
               <span class="class-name">org.example.TestDeleteTicket_Ruchira</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMyTicket">
+                  </a> <!-- getMyTicket -->
+                  <span class="method-name">getMyTicket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="postBookTicket">
@@ -194,15 +206,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'postBookTicket')
+data.setCell(0, 1, 'getMyTicket')
 data.setCell(0, 2, 'org.example.TestDeleteTicket_Ruchira')
-data.setCell(0, 3, 4043);
+data.setCell(0, 3, 3695);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'postDeleteTicket')
+data.setCell(1, 1, 'postBookTicket')
 data.setCell(1, 2, 'org.example.TestDeleteTicket_Ruchira')
-data.setCell(1, 3, 61);
+data.setCell(1, 3, 857);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'postDeleteTicket')
+data.setCell(2, 2, 'org.example.TestDeleteTicket_Ruchira')
+data.setCell(2, 3, 444);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
@@ -240,19 +256,23 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setResponseSpecification</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">getMyTicket</span>
+                <span class="method-start">1118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">postBookTicket</span>
-                <span class="method-start">906 ms</span>
+                <span class="method-start">4813 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">postDeleteTicket</span>
-                <span class="method-start">4949 ms</span>
+                <span class="method-start">5670 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">flushReport</span>
-                <span class="method-start">5010 ms</span>
+                <span class="method-start">6114 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

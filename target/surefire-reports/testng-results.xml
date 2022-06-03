@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="5279" started-at="2022-06-03T03:14:25Z" finished-at="2022-06-03T03:14:30Z">
+  <suite name="Surefire suite" duration-ms="6383" started-at="2022-06-03T07:56:23Z" finished-at="2022-06-03T07:56:30Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="5279" started-at="2022-06-03T03:14:25Z" finished-at="2022-06-03T03:14:30Z">
+    <test name="Surefire test" duration-ms="6383" started-at="2022-06-03T07:56:23Z" finished-at="2022-06-03T07:56:30Z">
       <class name="org.example.TestDeleteTicket_Ruchira">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="startTest" is-config="true" duration-ms="8" started-at="2022-06-03T08:44:25Z" finished-at="2022-06-03T08:44:25Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@2ed94a8b]" name="startTest" is-config="true" duration-ms="8" started-at="2022-06-03T13:26:23Z" finished-at="2022-06-03T13:26:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="setResponseSpecification()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="setResponseSpecification" is-config="true" duration-ms="890" started-at="2022-06-03T08:44:25Z" finished-at="2022-06-03T08:44:26Z">
+        <test-method status="PASS" signature="setResponseSpecification()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@2ed94a8b]" name="setResponseSpecification" is-config="true" duration-ms="1100" started-at="2022-06-03T13:26:23Z" finished-at="2022-06-03T13:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setResponseSpecification -->
-        <test-method status="PASS" signature="postBookTicket()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="postBookTicket" duration-ms="4043" started-at="2022-06-03T08:44:26Z" finished-at="2022-06-03T08:44:30Z">
+        <test-method status="PASS" signature="getMyTicket()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@2ed94a8b]" name="getMyTicket" duration-ms="3695" started-at="2022-06-03T13:26:24Z" finished-at="2022-06-03T13:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMyTicket -->
+        <test-method status="PASS" signature="postBookTicket()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@2ed94a8b]" name="postBookTicket" duration-ms="857" started-at="2022-06-03T13:26:28Z" finished-at="2022-06-03T13:26:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postBookTicket -->
-        <test-method status="PASS" signature="postDeleteTicket()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="postDeleteTicket" duration-ms="61" started-at="2022-06-03T08:44:30Z" finished-at="2022-06-03T08:44:30Z">
+        <test-method status="PASS" signature="postDeleteTicket()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@2ed94a8b]" name="postDeleteTicket" duration-ms="444" started-at="2022-06-03T13:26:29Z" finished-at="2022-06-03T13:26:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postDeleteTicket -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@79698539]" name="flushReport" is-config="true" duration-ms="267" started-at="2022-06-03T08:44:30Z" finished-at="2022-06-03T08:44:30Z">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:org.example.TestDeleteTicket_Ruchira@2ed94a8b]" name="flushReport" is-config="true" duration-ms="265" started-at="2022-06-03T13:26:29Z" finished-at="2022-06-03T13:26:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
